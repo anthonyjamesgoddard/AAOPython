@@ -9,7 +9,7 @@ plt.rc('font', family='serif')
 
 plt.xlabel(r'Eigenvalue Index',fontsize=14)
 plt.ylabel(r'Eigenvalues',fontsize=16)
-A,Pinv= twave.monolithicAAO(32,32)
+A,Pinv= twave.monolithicAAOCD(96,96)
 
 w,v= np.linalg.eig(Pinv*A)
 
