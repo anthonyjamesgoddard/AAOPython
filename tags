@@ -1,0 +1,151 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+A	spacial.py	/^A = temp3+temp1$/;"	v
+A	temporal.py	/^A = temp3+temp1$/;"	v
+A	temporalwave.py	/^A = temp5+temp4+temp1$/;"	v
+A0	spacial.py	/^A0 = ssp.csr_matrix((N,N))$/;"	v
+A0	temporal.py	/^A0 = ssp.csr_matrix((N,N))$/;"	v
+A0	temporalwave.py	/^A0 = ssp.csr_matrix((N,N))$/;"	v
+A0list	temporal.py	/^A0list = [ssp.csr_matrix((N,N)) for i in timesteps]$/;"	v
+A0list	temporalwave.py	/^A0list = [ssp.csr_matrix((N,N)) for i in timesteps]$/;"	v
+A1	spacial.py	/^A1 = ssp.csr_matrix((N,N))$/;"	v
+A1	temporal.py	/^A1 = ssp.csr_matrix((N,N))$/;"	v
+A1	temporalwave.py	/^A1 = ssp.csr_matrix((N,N))$/;"	v
+A2	temporalwave.py	/^A2 = ssp.csr_matrix((N,N))$/;"	v
+AA	spacial.py	/^AA= (mass*stiff).todense()$/;"	v
+B	spacial.py	/^B = np.tile(RHSi,Tn)$/;"	v
+B	temporal.py	/^B = np.tile(RHSi,Tn)$/;"	v
+B	temporalwave.py	/^B = np.tile(RHSi,Tn)$/;"	v
+BB	spacial.py	/^BB= (stiff*mass).todense()$/;"	v
+M	spacial.py	/^M=la.LinearOperator((N*Tn,N*Tn),M_x)$/;"	v
+M	temporal.py	/^M=la.LinearOperator((N*Tn,N*Tn),M_x)$/;"	v
+M	temporalwave.py	/^M=la.LinearOperator((N*Tn,N*Tn),M_x)$/;"	v
+M_x	spacial.py	/^M_x = lambda x: la.spsolve(precon,x)$/;"	v
+M_x	temporal.py	/^M_x = lambda x: la.spsolve(PP,x)$/;"	v
+M_x	temporalwave.py	/^M_x = lambda x: la.spsolve(PP,x)$/;"	v
+N	spacial.py	/^N = 10$/;"	v
+N	temporal.py	/^N = 20$/;"	v
+N	temporalwave.py	/^N = 30$/;"	v
+PP	temporal.py	/^PP =precon#precon.transpose()*precon$/;"	v
+PP	temporalwave.py	/^PP =precon#precon.transpose()*precon$/;"	v
+RHS0	spacial.py	/^RHS0 = mass2*np.sin(2*np.pi*interval)+tau*b$/;"	v
+RHS0	temporal.py	/^RHS0 = mass2*np.sin(2*np.pi*interval)+tau*b$/;"	v
+RHS0	temporalwave.py	/^RHS0 = mass2*np.sin(2*np.pi*interval)+tau*b$/;"	v
+RHSi	spacial.py	/^RHSi = tau*b$/;"	v
+RHSi	temporal.py	/^RHSi = tau*b$/;"	v
+RHSi	temporalwave.py	/^RHSi = tau*b$/;"	v
+T	spacial.py	/^T = 1.0;$/;"	v
+T	temporal.py	/^T = 1.0;$/;"	v
+T	temporalwave.py	/^T = 2.0;$/;"	v
+Tn	spacial.py	/^Tn = 2$/;"	v
+Tn	temporal.py	/^Tn = 20$/;"	v
+Tn	temporalwave.py	/^Tn = 30$/;"	v
+Y	temporal.py	/^Y=sp.linalg.hankel(hankdata)$/;"	v
+Ys	temporal.py	/^Ys = ssp.csr_matrix(Y)$/;"	v
+__call__	FEMhelper.py	/^    def __call__(self, rk=None):$/;"	m	class:gmres_counter	file:
+__call__	spacial.py	/^    def __call__(self, rk=None):$/;"	m	class:gmres_counter	file:
+__init__	FEMhelper.py	/^    def __init__(self, disp=True):$/;"	m	class:gmres_counter
+__init__	spacial.py	/^    def __init__(self, disp=True):$/;"	m	class:gmres_counter
+b	spacial.py	/^b = np.zeros(N)$/;"	v
+b	temporal.py	/^b = np.zeros(N)$/;"	v
+b	temporalwave.py	/^b = np.zeros(N)$/;"	v
+b1	spacial.py	/^b1 =0.5*h*(np.diff(interval[:-1])+np.diff(interval[1:]))$/;"	v
+b1	temporal.py	/^b1 =0.5*h*(np.diff(interval[:-1])+np.diff(interval[1:]))$/;"	v
+b1	temporalwave.py	/^b1 =0.5*h*(np.diff(interval[:-1])+np.diff(interval[1:]))$/;"	v
+blockStrang	preconsuite.py	/^def blockStrang(matrix_list_of_lists):$/;"	f
+counter	spacial.py	/^counter = gmres_counter()$/;"	v
+counter	temporal.py	/^counter = fh.gmres_counter()$/;"	v
+counter	temporalwave.py	/^counter = fh.gmres_counter()$/;"	v
+fh	spacial.py	/^import FEMhelper as fh$/;"	i
+fh	temporal.py	/^import FEMhelper as fh$/;"	i
+fh	temporalwave.py	/^import FEMhelper as fh$/;"	i
+generateMassStiff	FEMhelper.py	/^def generateMassStiff(linemesh):$/;"	f
+gmres_counter	FEMhelper.py	/^class gmres_counter(object):$/;"	c
+gmres_counter	spacial.py	/^class gmres_counter(object):$/;"	c
+h	spacial.py	/^h = 1$/;"	v
+h	temporal.py	/^h = 1$/;"	v
+h	temporalwave.py	/^h = 1$/;"	v
+hankdata	temporal.py	/^hankdata = np.zeros(N*Tn)$/;"	v
+interval	spacial.py	/^interval = ml.mesh(0,1,N,0.1)$/;"	v
+interval	temporal.py	/^interval = ml.mesh(0,1,N,0.9)$/;"	v
+interval	temporalwave.py	/^interval = ml.mesh(0,1,N,0)$/;"	v
+interval	testmesh.py	/^interval = meshline.mesh(0,1,10,0.1)$/;"	v
+interval2	testmesh.py	/^interval2 =meshline.mesh(0,1,10,0)$/;"	v
+iterations	presentPlot.py	/^iterations=[3,3,3,3,3]$/;"	v
+la	spacial.py	/^import scipy.sparse.linalg as la$/;"	i
+la	temporal.py	/^import scipy.sparse.linalg as la$/;"	i
+la	temporalwave.py	/^import scipy.sparse.linalg as la$/;"	i
+mass	spacial.py	/^mass = mass[1:,1:]$/;"	v
+mass	temporal.py	/^mass = mass[1:,1:]$/;"	v
+mass	temporalwave.py	/^mass = mass[1:,1:]$/;"	v
+mass2	spacial.py	/^mass2 = ssp.csr_matrix((N,N))$/;"	v
+mass2	temporal.py	/^mass2 = ssp.csr_matrix((N,N))$/;"	v
+mass2	temporalwave.py	/^mass2 = ssp.csr_matrix((N,N))$/;"	v
+matplotlib	presentPlot.py	/^import matplotlib.pyplot as plt$/;"	i
+matplotlib	spacial.py	/^import matplotlib.pyplot as plt$/;"	i
+matplotlib	temporal.py	/^import matplotlib.pyplot as plt$/;"	i
+matplotlib	temporalwave.py	/^import matplotlib.pyplot as plt$/;"	i
+mesh	meshline.py	/^def mesh(begin,end,N,delta):$/;"	f
+meshline	testmesh.py	/^import meshline$/;"	i
+ml	spacial.py	/^import meshline as ml$/;"	i
+ml	temporal.py	/^import meshline as ml$/;"	i
+ml	temporalwave.py	/^import meshline as ml$/;"	i
+np	FEMhelper.py	/^import numpy as np$/;"	i
+np	meshline.py	/^import numpy as np$/;"	i
+np	spacial.py	/^import numpy as np$/;"	i
+np	temporal.py	/^import numpy as np$/;"	i
+np	temporalwave.py	/^import numpy as np$/;"	i
+numberoftimesteps	presentPlot.py	/^numberoftimesteps =[10,20,30,40,50]$/;"	v
+plt	presentPlot.py	/^import matplotlib.pyplot as plt$/;"	i
+plt	spacial.py	/^import matplotlib.pyplot as plt$/;"	i
+plt	temporal.py	/^import matplotlib.pyplot as plt$/;"	i
+plt	temporalwave.py	/^import matplotlib.pyplot as plt$/;"	i
+precon	spacial.py	/^precon = temp3+temp1$/;"	v
+precon	temporal.py	/^precon = temp1+temp4+temp5-temp3$/;"	v
+precon	temporal.py	/^precon = temp3+temp1$/;"	v
+precon	temporalwave.py	/^precon = temp5+temp4+temp1$/;"	v
+scipy	FEMhelper.py	/^import scipy.sparse as ssp$/;"	i
+scipy	spacial.py	/^import scipy.sparse as ssp$/;"	i
+scipy	spacial.py	/^import scipy.sparse.linalg as la$/;"	i
+scipy	temporal.py	/^import scipy.sparse as ssp$/;"	i
+scipy	temporal.py	/^import scipy.sparse.linalg as la$/;"	i
+scipy	temporalwave.py	/^import scipy.sparse as ssp$/;"	i
+scipy	temporalwave.py	/^import scipy.sparse.linalg as la$/;"	i
+sp	temporal.py	/^import scipy as sp$/;"	i
+sp	temporalwave.py	/^import scipy as sp$/;"	i
+sparse	spacial.py	/^import scipy.sparse.linalg as la$/;"	i
+sparse	temporal.py	/^import scipy.sparse.linalg as la$/;"	i
+sparse	temporalwave.py	/^import scipy.sparse.linalg as la$/;"	i
+ssp	FEMhelper.py	/^import scipy.sparse as ssp$/;"	i
+ssp	spacial.py	/^import scipy.sparse as ssp$/;"	i
+ssp	temporal.py	/^import scipy.sparse as ssp$/;"	i
+ssp	temporalwave.py	/^import scipy.sparse as ssp$/;"	i
+stiff	spacial.py	/^stiff = stiff[1:,1:]$/;"	v
+stiff	temporal.py	/^stiff = stiff[1:,1:]$/;"	v
+stiff	temporalwave.py	/^stiff = stiff[1:,1:]$/;"	v
+stiff2	temporal.py	/^stiff2 = ssp.csr_matrix((N,N))$/;"	v
+stiff2	temporalwave.py	/^stiff2 = ssp.csr_matrix((N,N))$/;"	v
+tau	spacial.py	/^tau = T\/Tn$/;"	v
+tau	temporal.py	/^tau = T\/Tn$/;"	v
+tau	temporalwave.py	/^tau = T\/Tn$/;"	v
+temp1	spacial.py	/^temp1 = ssp.block_diag([A0]*Tn).tocsr()$/;"	v
+temp1	temporal.py	/^temp1 = ssp.block_diag(A0list).tocsr()$/;"	v
+temp1	temporal.py	/^temp1 = ssp.kron(np.eye(Tn),mass2)$/;"	v
+temp1	temporalwave.py	/^temp1 = ssp.block_diag(A0list).tocsr()$/;"	v
+temp2	spacial.py	/^temp2 = ssp.block_diag([A1]*(Tn-1)).tocsr()$/;"	v
+temp2	temporal.py	/^temp2 = ssp.block_diag([A1]*(Tn-1)).tocsr()$/;"	v
+temp2	temporal.py	/^temp2 = ssp.kron(np.diag(timesteps),stiff2)$/;"	v
+temp2	temporalwave.py	/^temp2 = ssp.block_diag([A1]*(Tn-1)).tocsr()$/;"	v
+temp3	spacial.py	/^temp3 = ssp.csr_matrix((N*Tn,N*Tn))$/;"	v
+temp3	temporal.py	/^temp3 = ssp.csr_matrix((N*Tn,N*Tn))$/;"	v
+temp3	temporal.py	/^temp3 = ssp.kron(np.roll(np.eye(Tn),1,axis=0),mass2)$/;"	v
+temp3	temporalwave.py	/^temp3 = ssp.block_diag([A2]*(Tn-2)).tocsr()$/;"	v
+temp4	temporal.py	/^temp4 = ssp.kron(np.eye(Tn),stiff2)$/;"	v
+temp4	temporalwave.py	/^temp4 = ssp.csr_matrix((N*Tn,N*Tn))$/;"	v
+temp5	temporal.py	/^temp5 = ssp.kron(np.diag(timesteps),np.eye(Tn))$/;"	v
+temp5	temporalwave.py	/^temp5 = ssp.csr_matrix((N*Tn,N*Tn))$/;"	v
+timeDis	meshline.py	/^def timeDis(T,N,delta):$/;"	f
